@@ -2,7 +2,7 @@
 layout: post
 title:  Champaign councilman apologizes for offensive statements made to the Black man in the mirror
 date:   2025-04-01
-image:  davion-williams.jpg
+img:  davion-williams.jpg
 tags:   [Politics]
 ---
 
