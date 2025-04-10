@@ -1,0 +1,26 @@
+name: Update Pages, Build, Deployment
+
+on:
+  schedule:
+    # Runs every day at midnight (00:00 UTC)
+    - cron: '0 0 * * *'
+
+jobs:
+  trigger-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Trigger the pages-build-deployment workflow
+      - name: Trigger Pages and Deployment
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/");
+            const workflow_id = "pages-build-deployment.yml"; // Replace with the actual filename of the workflow
+            const response = await github.actions.createWorkflowDispatch({
+              owner,
+              repo,
+              workflow_id,
+              ref: "main", // Replace with the branch where the workflow is located
+            });
+            console.log(response);
