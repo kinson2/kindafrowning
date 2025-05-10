@@ -6,6 +6,6 @@ img:  water.jpg
 tags:   [News, Politics]
 ---
 
-Regular water payments are ending this month. Customers are concerned about the new easy-to-install water filtration system that converts water to water. An employee of the city was heard explaining that the water is not holy, but the payments are. IYKYK.
+Customers are concerned about the new easy-to-install water filtration system that converts water to water. Regular water payments are ending this month. An employee of the city was heard explaining that the water is not holy, but the payments are. 
 
 Inspiration for this story: [https://www.wcia.com/news/effingham-county/effingham-transitioning-to-new-payment-portal/](https://www.wcia.com/news/effingham-county/effingham-transitioning-to-new-payment-portal/)
